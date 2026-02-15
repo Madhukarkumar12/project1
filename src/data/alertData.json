@@ -1,0 +1,142 @@
+{
+    "alerts": [
+        {
+            "id": "ALT-1001",
+            "type": "INTRUSION",
+            "title": "Intrusion Detected",
+            "y": "24%",
+            "x": "16%",
+            "location": {
+                "label": "Zone 1 - Gate 14"
+            },
+            "camera": {
+                "name": "Cam#3"
+            },
+            "severity": "high",
+            "status": "active",
+            "humanized": "10-16-2025 | 10:00 AM",
+            "img": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+            "video": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Video/emt1.mp4",
+            "carousel": [
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png"
+            ]
+        },
+        {
+            "id": "ALT-1002",
+            "type": "UNATTENDED_BAGGAGE",
+            "title": "Unattended Baggage Detection",
+            "y": "62%",
+            "x": "18%",
+            "location": {
+                "label": "Inspection, Zone 2"
+            },
+            "camera": {
+                "name": "Cam#2"
+            },
+            "severity": "medium",
+            "status": "active",
+            "humanized": "10-16-2025 | 10:00 AM",
+            "img": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+            "video": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Video/emt1.mp4",
+            "carousel": [
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png"
+            ]
+        },
+        {
+            "id": "ALT-1003",
+            "type": "UNAUTHORIZED_VEHICLE",
+            "title": "Unauthorized Vehicle Detection",
+            "y": "82%",
+            "x": "35%",
+            "location": {
+                "label": "Zone D, Gate 12"
+            },
+            "camera": {
+                "name": "Cam#4"
+            },
+            "severity": "high",
+            "status": "active",
+            "humanized": "10-16-2025 | 10:00 AM",
+            "img": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+            "video": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Video/emt1.mp4",
+            "carousel": [
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png"
+            ]
+        },
+        {
+            "id": "ALT-1004",
+            "type": "INTRUSION",
+            "title": "Intrusion Detection",
+            "y": "52%",
+            "x": "45%",
+            "location": {
+                "label": "Lobby Zone F, Gate 14"
+            },
+            "camera": {
+                "name": "Cam#1"
+            },
+            "severity": "medium",
+            "status": "resolved",
+            "humanized": "10-16-2025 | 10:00 AM",
+            "img": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+            "video": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Video/emt1.mp4",
+            "carousel": [
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png"
+            ]
+        },
+        {
+            "id": "ALT-1005",
+            "type": "UNATTENDED_OBJECT",
+            "title": "Unattended Object Detection",
+            "y": "23%",
+            "x": "51%",
+            "location": {
+                "label": "Zone 9, Gate 2"
+            },
+            "camera": {
+                "name": "Cam#5"
+            },
+            "severity": "low",
+            "status": "active",
+            "humanized": "10-16-2025 | 10:00 AM",
+            "img": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+            "video": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Video/emt1.mp4",
+            "carousel": [
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png"
+            ]
+        },
+        {
+            "id": "ALT-1006",
+            "type": "FALL",
+            "title": "Fall Detection",
+            "y": "54%",
+            "x": "52%",
+            "location": {
+                "label": "Zone 10, Gate 3"
+            },
+            "camera": {
+                "name": "Cam#1"
+            },
+            "severity": "critical",
+            "status": "active",
+            "humanized": "10-16-2025 | 10:00 AM",
+            "img": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+            "video": "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Video/emt1.mp4",
+            "carousel": [
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png",
+                "https://assets.grok-digital.com/oilwells/v2/Emission-Tower/Image/emt1.png"
+            ]
+        }
+    ]
+}
