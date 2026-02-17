@@ -1,0 +1,30 @@
+name: Deploy Application
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    name: Build and Deploy Application
+    env:
+      CI: "false"
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{secrets.SSH_HOST}}
+          username: ubuntu
+          key: ${{secrets.SSH_KEY}}
+          port: 22
+          script: |
+            cd /home/ubuntu/project1
+            git pull origin main
+            git compose down
+            git compose up -d --build
