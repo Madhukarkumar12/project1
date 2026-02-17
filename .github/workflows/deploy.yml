@@ -9,8 +9,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     name: Build and Deploy Application
-    env:
-      CI: "false"
 
     steps:
       - name: Checkout Repository
